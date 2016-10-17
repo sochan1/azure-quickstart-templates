@@ -48,13 +48,7 @@
         "description": "Name of the subnet in the virtual network you want to use"
       }
     },
-    "dnsNameForPublicIP": {
-      "type": "string",
-      "metadata": {
-        "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
-      }
-    }
-  },
+   },
   "variables": {
     "api-version": "2015-06-15",
     "publicIPAddressType": "Dynamic",
